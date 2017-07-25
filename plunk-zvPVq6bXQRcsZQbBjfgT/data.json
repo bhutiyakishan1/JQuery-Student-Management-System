@@ -1,0 +1,37 @@
+
+
+
+
+[
+  {
+    "username":"Arun",
+    "org":"Marlabs",
+    "phone":"1231232312",
+    "interest":"Bikes",
+    "address":{
+      "communication":"Piscataway, NJ",
+      "permanent":"Kerala, India"
+    }
+  },
+  {
+    "username":"Georgy",
+    "org":"Marlabs",
+    "phone":"1231232312",
+    "interest":"Bikes",
+    "address":{
+      "communication":"Piscataway, NJ",
+      "permanent":"Kerala, India"
+    }
+  },
+  {
+    "username":"Nanda",
+    "org":"Marlabs",
+    "phone":"1231232312",
+    "interest":"Bikes",
+    "address":{
+      "communication":"Piscataway, NJ",
+      "permanent":"Kerala, India"
+    }
+  }
+
+]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style7.css" />
+</head>
+
+<body onload="loctable();">
+<div class="container">
+    <h2 class="text-center">Login Form</h2>
+    <form id="regForm" >
+        <div class="form-group" id="form1">
+            <label>FirstName</label><br>
+            <input type="text"  id="firstname" name="firstname" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form2">
+            <label>LastName</label><br>
+            <input type="text"  id="lastname" name="lastname" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form3">
+            <label>UserId</label><br>
+            <input type="text"  id="username" name="username" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form4">
+            <label>Email</label><br>
+            <input type="text"  id="email" name="email" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form5">
+            <label>Password</label><br>
+            <input type="password"  id="password" name="password" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form6">
+            <label>Phone</label><br>
+            <input type="text"  id="phone" name="phone" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form7">
+            <label>Batch</label><br>
+            <input type="text"  id="batch" name="batch" placeholder="Javascript/Java/.Net" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form8">
+            <label>Location</label><br>
+            <input type="text"  id="location" name="location" onkeyup="dltObj()">
+        </div>
+        <div id="buttons">
+            <p draggable="true" id="1">Piscataway</p>
+            <p draggable="true" id="2">California</p>
+            <p draggable="true" id="3">Buffalo</p>
+            <p draggable="true" id="4">Long Island</p>
+            <p draggable="true" id="5">Chicago</p>
+        </div>
+        <div class="form-group" id="form9">
+            <label>Communication</label><br>
+            <input type="text"  id="communication" name="communication" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form10">
+            <label>Permanent</label><br>
+            <input type="text"  id="permanent" name="permanent" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form11">
+            <label>Company 1</label><br>
+            <input type="text"  id="google" name="google" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form12">
+            <label>Company 2</label><br>
+            <input type="text"  id="facebook" name="facebook" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form13">
+            <label>Company 3</label><br>
+            <input type="text"  id="linkedin" name="linkedin" onkeyup="dltObj()">
+        </div>
+        <div class="form-group" id="form14">
+            <label>Gender</label><br>
+            <input type="radio" class="form-control" id="male" name="gender">Male
+            <input type="radio" class="form-control" id="female" name="gender">Female
+        </div>
+
+        <button type="button" name="submit" id="inputsubmit" class="btn btn-default" onclick="register(event)">Submit</button>
+        <button type="button" name="update" id="inputupdate"  class="btn btn-default" >Update</button>
+    </form>
+</div>
+
+<div class="extratabs">
+<strong>Rows :</strong>
+<select id="dropdown">
+    <option value='10'>10</option>
+    <option value='20'>20</option>
+    <option value='50'>50</option>
+    <option value='100'>100</option>
+</select>
+<label for="search">
+<strong>Enter keyword to search</strong>
+</label>
+<input type="text" id="search">
+
+
+<table id="data">
+
+</table>
+    </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="script7.js"></script>
+</body>
+
+</html>

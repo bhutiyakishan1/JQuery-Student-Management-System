@@ -1,0 +1,97 @@
+.form-group{
+    display: block;
+}
+
+body {
+    background: url("images/photo_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Cambria', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #666;
+}
+.container {
+
+    background-color: black;
+    color: white;
+    max-width: 340px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+    color: aqua;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    line-height: 2.8em;
+}
+
+.form-group {
+    font-weight: 700;
+    font-size: .8em;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+#table  {
+    font-family: Cambria;
+    border-collapse: collapse;
+    padding-bottom: 500px;
+}
+
+
+#data{
+    padding-top: 8%;
+    border-collapse: collapse;
+
+}
+
+
+
+td, th {
+    border: 1px solid #dddddd;
+    max-width: 15%;
+    text-align: left;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+
+th{
+    color:darkturquoise;
+}
+tr:nth-child(even) {
+    background-color: red;
+}
+strong {
+    background-color: black;
+    color: darkturquoise;
+}
+
+label {
+    background-color: black;
+    color: darkturquoise;
+}
+
+.extratabs label {
+    color:black;
+}
+
+#buttons p {
+    -moz-appearance:button;
+    -webkit-appearance:button;
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: black;
+    color: red;
+}
+
